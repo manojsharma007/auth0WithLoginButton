@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-sm-8 offset-sm-2">
                     <div>
-                        <h2>Profile</h2>
+                        <h2>Profile Page</h2>
                       Welcome : {{$store.user.name}}
                       
                     </div>

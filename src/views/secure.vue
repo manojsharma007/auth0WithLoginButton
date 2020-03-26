@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-sm-8 offset-sm-2">
                     <div>
-                        <h2>secure page</h2>
+                        <h2>Secure page</h2>
                       
                     </div>
                 </div>

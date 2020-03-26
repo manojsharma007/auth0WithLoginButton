@@ -58,7 +58,7 @@ export default new Vuex.Store({
         
               // redirect to auth0 logout to completely log the user out
               context.state.auth0.logout({
-                returnTo: process.env.VUE_APP_URL+'/home', // Allowed logout URL listed in dashboard
+                returnTo: process.env.VUE_APP_URL+'/login', // Allowed logout URL listed in dashboard
                 clientID: process.env.VUE_APP_AUTHCONFIGCLIENTID, // Your client ID
               })
           }
