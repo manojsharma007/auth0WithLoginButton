@@ -4,6 +4,7 @@ import Callback from './views/callback.vue'
 import secure from './views/secure.vue'
 import login from './views/login.vue'
 import home from './views/home.vue'
+import profile from './views/userprofile.vue'
 import Store from './store'
 
 
@@ -18,9 +19,20 @@ const router = new Router({
       component: home
     },
     {
+      path: '/home',
+      name: 'home',
+      component: home
+    },
+    {
       path: '/login',
       name: 'login',
       component: login
+    },
+    {
+      path: '/profile',
+      name: 'profile',
+      component: profile,
+      meta: {requiresAuth: true}
     },
     {
         path: '/secure',

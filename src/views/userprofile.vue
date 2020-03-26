@@ -4,7 +4,8 @@
             <div class="row">
                 <div class="col-sm-8 offset-sm-2">
                     <div>
-                        <h2>secure page</h2>
+                        <h2>Profile</h2>
+                      Welcome : {{$store.user.name}}
                       
                     </div>
                 </div>
@@ -14,14 +15,9 @@
 </template>
 
 <script>
-
 export default {
-  name: 'secure',
-   methods: {
-            secure(){
-              
-            }
-        }
+  name: 'profile',
+
 }
 </script>
 <style scoped>
